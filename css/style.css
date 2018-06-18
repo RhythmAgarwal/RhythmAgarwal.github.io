@@ -1,6 +1,3 @@
-#body {
-  display: none;
-}
 
 /* transform: matrix(1, 0, 0, 1, 0, 0);
 transition-delay:0s, 0s, 0s;
@@ -20,7 +17,7 @@ body {
 	right:0;
 	bottom:0;
 	background-color:#fff; /* change if the mask should have another color then white */
-	z-index:999999; /* makes sure it stays on top */
+	z-index:9999; /* makes sure it stays on top */
 }
 
 #status {
@@ -29,10 +26,11 @@ body {
 	position:absolute;
 	left:50%; /* centers the loading animation horizontally one the screen */
 	top:50%; /* centers the loading animation vertically one the screen */
-	background-image:url(../img/status.gif); /* path to your loading animation */
+	background-image:url(../imgs/loader1.gif) /* path to your loading animation */
 	background-repeat:no-repeat;
 	background-position:center;
 	margin:-100px 0 0 -100px; /* is width and height divided by two */
+  z-index:99999; /* makes sure it stays on top */
 }
 
 @font-face {
