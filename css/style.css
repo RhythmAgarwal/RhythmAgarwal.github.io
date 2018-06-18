@@ -7,6 +7,7 @@ transition-timing-function:cubic-bezier(0.694, 0, 0.335, 1);
 } */
 body {
 	overflow: hidden;
+  overflow-x:hidden !important;
 }
 
 /* Preloader */
@@ -17,7 +18,7 @@ body {
 	right:0;
 	bottom:0;
 	background-color:#fff; /* change if the mask should have another color then white */
-	z-index:99; /* makes sure it stays on top */
+	z-index:9999; /* makes sure it stays on top */
 }
 
 #status {
@@ -26,7 +27,7 @@ body {
 	position:absolute;
 	left:50%; /* centers the loading animation horizontally one the screen */
 	top:50%; /* centers the loading animation vertically one the screen */
-	background-image:url(../imgs/loader1.gif) /* path to your loading animation */
+  background-image: url(../imgs/status.gif);
 	background-repeat:no-repeat;
 	background-position:center;
 	margin:-100px 0 0 -100px; /* is width and height divided by two */
