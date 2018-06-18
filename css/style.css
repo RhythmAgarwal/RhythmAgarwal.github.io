@@ -1134,6 +1134,7 @@ footer ul {
 }
 
 .come-in {
+  -webkit-transform: translate3d(0,20px,0);
   transition: opacity 700ms cubic-bezier(.694,0,.335,1),transform 700ms cubic-bezier(.694,0,.335,1),-webkit-transform 700ms cubic-bezier(.694,0,.335,1);
 }
 .come-in:nth-child(odd) {
