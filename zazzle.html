@@ -30,6 +30,9 @@
 
 
 <body>
+	<div id="preloader">
+		<div id="status">&nbsp;</div>
+	</div>
 	<header class="bleh">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
@@ -334,6 +337,13 @@ currently available to them.</h4>
 	</footer>
 
 	<script type="text/javascript">
+	$(window).on('load', function() { // makes sure the whole site is loaded
+			$('#status').fadeOut(); // will first fade out the loading animation
+			$('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+			$('body').delay(350).css({'overflow':'visible'});
+		})
+
+
 		$(document).ready(function() {
 			$(this).scrollTop(0);
 		});
@@ -454,7 +464,6 @@ currently available to them.</h4>
 			};
 		})();
 	</script>
-
 
 </body>
 
