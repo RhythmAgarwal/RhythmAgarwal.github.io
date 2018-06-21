@@ -305,8 +305,8 @@ h2 {
 }
 
 .me {
-  padding-top: 15%;
-  padding-bottom: 15%;
+  padding-top: 14%;
+  padding-bottom: 14%;
 }
 
 .mep {
@@ -336,8 +336,7 @@ h2 {
 
 .quotes {
   padding-top: 3%;
-  padding-bottom: 3%;
-  color: red !important;
+  padding-bottom: 7%;
 }
 
 .quotes h2 {
@@ -563,7 +562,7 @@ h2 {
 
 .workcontent3 h4 {
   font-family: got;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 2em;
   letter-spacing: normal;
   text-transform: none;
@@ -832,7 +831,7 @@ a {
 p {
   font-family: got !important;
   font-weight: 300 !important;
-  font-size: 1.05em;
+  font-size: 1em;
   color: #404040;
 }
 
