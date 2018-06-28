@@ -831,8 +831,11 @@ a {
 p {
   font-family: got !important;
   font-weight: 300 !important;
-  font-size: 1em;
-  color: #404040;
+    font-size: 13px;
+    line-height: 2em;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #767676;
 }
 
 p strong {
@@ -846,6 +849,12 @@ p .textnrm {
   font-weight: 300 !important;
 }
 
+
+.gifimg{
+  max-width: 300px;
+  margin: 0 auto;
+
+}
 .small {
   font-size: .5em;
   display: block;
