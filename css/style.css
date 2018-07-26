@@ -414,6 +414,15 @@ h2 {
     color: black;
 }
 
+.inprob2 h5 {
+  font-family: got !important;
+  font-weight: 500 !important;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-transform: none;
+    line-height: 27px;
+    color: black;
+}
 .xyz{
   padding-top: 15px !important;
 }
