@@ -391,6 +391,20 @@ h2 {
   max-width: 20em;
 }
 
+.inprob1 h4 {
+  font-family: got;
+  font-size: 18px;
+  line-height: 1.66666667em;
+  letter-spacing: .19444444em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+  padding-top: 5%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
 .inprob h5 {
   font-family: got !important;
   font-weight: 500 !important;
