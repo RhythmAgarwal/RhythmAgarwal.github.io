@@ -63,6 +63,15 @@ transition-timing-function:cubic-bezier(0.694, 0, 0.335, 1);
   font-style: italic;
 }
 
+
+@font-face {
+  font-family: got;
+  src: url(../fonts/Gotham-BookIta.otf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+
 html {
   font-family: got;
   -webkit-text-size-adjust: 100%;
@@ -78,6 +87,17 @@ body {
 .lde1 h2
 {
 font-size: 1.6em !important;
+
+}
+
+.lde1 h4
+{
+  text-align: left;
+  font-family: got;
+  font-weight: 400 !important;
+  font-size: 1.3em !important;
+  line-height: 1.6em !important;
+  color: black;
 
 }
 
@@ -267,7 +287,7 @@ h2 {
   background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#portfolio .portfolio-item .portfolio-caption  {
   margin: 0;
   text-transform: none;
 }
@@ -412,6 +432,17 @@ h2 {
     letter-spacing: normal;
     text-transform: none;
     color: black;
+    line-height: 1.7em;
+}
+
+.inprobg1 h5 {
+  font-family: got !important;
+  font-weight: 500 !important;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-transform: none;
+    color: black;
+    line-height: 1.8em;
 }
 
 .inprob2 h5 {
@@ -631,6 +662,19 @@ h2 {
   letter-spacing: normal;
   text-transform: none;
   font-weight: 300;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 6%;
+  max-width: 36em;
+}
+
+.workcontent h4 b {
+  font-family: got;
+  font-size: 14px;
+  line-height: 2em;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 500;
   color: #333333;
   margin-top: 0;
   margin-bottom: 6%;
@@ -878,27 +922,59 @@ a {
   text-transform: uppercase;
 }
 
+.inprobg p {
+  font-family: got !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  font-style: italic;
+  line-height: 1.8em;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #333333;
+
+}
+
 p {
   font-family: got !important;
   font-weight: 300 !important;
     font-size: 14px;
-    line-height: 2em;
+    line-height: 1.7em;
     letter-spacing: normal;
     text-transform: none;
     color: #333333;
 }
 
+.inprobg1 p {
+  font-family: got !important;
+  font-weight: 300 !important;
+    font-size: 15px;
+    line-height: 1.8em;
+    letter-spacing: normal;
+    text-transform: none;
+    color: #333333;
+    padding-bottom: 15px ;
+}
+
 p strong {
   font-family: got !important;
   font-weight: 500 !important;
-  font-size: 1.05em;
+  font-size: 14px;
   color: #404040;
+  line-height: 1.7em;
 }
 
 p .textnrm {
   font-weight: 300 !important;
 }
 
+
+strong {
+  font-family: got !important;
+  font-weight: 500 !important;
+  font-size: 14px;
+  color: #404040;
+  line-height: 1.7em;
+}
 
 .gifimg{
   max-width: 300px;
